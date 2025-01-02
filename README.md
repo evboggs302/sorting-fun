@@ -2,11 +2,11 @@
 
 ### Get it running
 
-Use `yarn start` to run the sort command on pre-existing parcels.
+Use `yarn sort` to run the sort command on pre-existing parcels.
 
 Use `yarn test` to run the test suite.
 
 To try it out yourself, `cd` into the project root and run the below:
             
     yarn install
-    ts-node ./cli/sort.ts "<enter any argument you like>"
+    yarn sort-cli "<enter any argument you like>"

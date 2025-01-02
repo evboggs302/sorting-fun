@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "test": "jest",
-    "start": "ts-node index.ts"
+    "sort": "ts-node index.ts",
+    "sort-cli": "ts-node ./cli/sort.ts"
   },
   "devDependencies": {
     "@jest/globals": "^29.7.0",
